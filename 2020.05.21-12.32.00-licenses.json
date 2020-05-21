@@ -1,0 +1,834 @@
+{
+  "headers": [
+    {
+      "tool_name": "scancode-toolkit",
+      "tool_version": "3.1.1",
+      "options": {
+        "input": [
+          "/src"
+        ],
+        "--classify": true,
+        "--copyright": true,
+        "--custom-output": "/artifacts/2020.05.21-12.32.00-license-modification-report.html",
+        "--custom-template": "/amd-scancode/license-modification-template.html",
+        "--email": true,
+        "--full-root": true,
+        "--info": true,
+        "--is-license-text": true,
+        "--json-pp": "/artifacts/2020.05.21-12.32.00-licenses.json",
+        "--keywordsscan": true,
+        "--licence-modifications": true,
+        "--license": true,
+        "--license-policy": "/amd-scancode/amd_licence_policy.yml",
+        "--license-text": true,
+        "--license-text-diagnostics": true,
+        "--no-licenses": true,
+        "--package": true,
+        "--processes": "55",
+        "--summary": true,
+        "--summary-with-details": true,
+        "--url": true,
+        "--verbose": true
+      },
+      "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
+      "start_timestamp": "2020-05-21T123201.679003",
+      "end_timestamp": "2020-05-21T123244.231120",
+      "message": null,
+      "errors": [],
+      "extra_data": {
+        "files_count": 5
+      }
+    }
+  ],
+  "summary": {
+    "license_expressions": [
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "uoi-ncsa",
+        "count": 3
+      }
+    ],
+    "copyrights": [
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "Copyright (c) Advanced Micro Devices, Inc.",
+        "count": 2
+      }
+    ],
+    "holders": [
+      {
+        "value": null,
+        "count": 3
+      },
+      {
+        "value": "Advanced Micro Devices, Inc.",
+        "count": 2
+      }
+    ],
+    "authors": [
+      {
+        "value": null,
+        "count": 5
+      }
+    ],
+    "programming_language": [
+      {
+        "value": null,
+        "count": 2
+      },
+      {
+        "value": "C++",
+        "count": 1
+      },
+      {
+        "value": "CMake",
+        "count": 1
+      },
+      {
+        "value": "Python",
+        "count": 1
+      }
+    ],
+    "packages": []
+  },
+  "files": [
+    {
+      "path": "/src",
+      "type": "directory",
+      "name": "src",
+      "base_name": "src",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": {},
+      "urls": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "is_license_text": false,
+      "codelines": 0,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "uoi-ncsa",
+            "count": 3
+          }
+        ],
+        "copyrights": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "Copyright (c) Advanced Micro Devices, Inc.",
+            "count": 2
+          }
+        ],
+        "holders": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "Advanced Micro Devices, Inc.",
+            "count": 2
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 5
+          }
+        ],
+        "programming_language": [
+          {
+            "value": null,
+            "count": 2
+          },
+          {
+            "value": "C++",
+            "count": 1
+          },
+          {
+            "value": "CMake",
+            "count": 1
+          },
+          {
+            "value": "Python",
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 5,
+      "dirs_count": 1,
+      "size_count": 47512,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo",
+      "type": "directory",
+      "name": "rocminfo",
+      "base_name": "rocminfo",
+      "extension": "",
+      "size": 0,
+      "date": null,
+      "sha1": null,
+      "md5": null,
+      "mime_type": null,
+      "file_type": null,
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": false,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": {},
+      "urls": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "is_license_text": false,
+      "codelines": 0,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "uoi-ncsa",
+            "count": 3
+          }
+        ],
+        "copyrights": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "Copyright (c) Advanced Micro Devices, Inc.",
+            "count": 2
+          }
+        ],
+        "holders": [
+          {
+            "value": null,
+            "count": 3
+          },
+          {
+            "value": "Advanced Micro Devices, Inc.",
+            "count": 2
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 5
+          }
+        ],
+        "programming_language": [
+          {
+            "value": null,
+            "count": 2
+          },
+          {
+            "value": "C++",
+            "count": 1
+          },
+          {
+            "value": "CMake",
+            "count": 1
+          },
+          {
+            "value": "Python",
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 5,
+      "dirs_count": 0,
+      "size_count": 47512,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo/CMakeLists.txt",
+      "type": "file",
+      "name": "CMakeLists.txt",
+      "base_name": "CMakeLists",
+      "extension": ".txt",
+      "size": 3699,
+      "date": "2020-05-21",
+      "sha1": "4589328f13f68486d5ee61b64927f2303d7e5cdb",
+      "md5": "2067659ed0b8ea95181134973a289874",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": "CMake",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": {},
+      "urls": [
+        {
+          "url": "https://github.com/RadeonOpenCompute/ROCm",
+          "start_line": 109,
+          "end_line": 109
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "is_license_text": false,
+      "codelines": 0,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "copyrights": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "holders": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "programming_language": [
+          {
+            "value": "CMake",
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo/License.txt",
+      "type": "file",
+      "name": "License.txt",
+      "base_name": "License",
+      "extension": ".txt",
+      "size": 1749,
+      "date": "2020-05-21",
+      "sha1": "3dabec9b1e5aa5c0331b7741a3c7e36875702dbf",
+      "md5": "bc6d4c432d4cedbf227465f2bb3bbf7b",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "uoi-ncsa",
+          "score": 96.94,
+          "name": "University of Illinois/NCSA Open Source License",
+          "short_name": "NCSA Open Source License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "NCSA - University of Illinois",
+          "homepage_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "text_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:uoi-ncsa",
+          "spdx_license_key": "NCSA",
+          "spdx_url": "https://spdx.org/licenses/NCSA",
+          "start_line": 1,
+          "end_line": 37,
+          "matched_rule": {
+            "identifier": "uoi-ncsa.LICENSE",
+            "license_expression": "uoi-ncsa",
+            "licenses": [
+              "uoi-ncsa"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "3-seq",
+            "rule_length": 229,
+            "matched_length": 222,
+            "match_coverage": 96.94,
+            "rule_relevance": 100
+          },
+          "matched_text": "University of Illinois/NCSA\nOpen Source License ([NCSA])\n\n[Copyright] ([c]) [2014]-[2017], [Advanced] [Micro] [Devices], [Inc]. [All] [rights] [reserved].\n\n[Developed] [by]:\n\n                [AMD] [Research] [and] [AMD] [HSA] [Software] [Development]\n\n                [Advanced] [Micro] [Devices], [Inc].\n\n                [www].[amd].[com]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal with the Software without restriction, including without limitation\nthe rights to use, copy, modify, merge, publish, distribute, sublicense,\nand/or sell copies of the Software, and to permit persons to whom the\nSoftware is furnished to do so, subject to the following conditions:\n\n - Redistributions of source code must retain the above copyright notice,\n   this list of conditions and the following disclaimers.\n - Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimers in\n   the documentation and/or other materials provided with the distribution.\n - Neither the names of [Advanced] [Micro] [Devices], [Inc],\n   nor the names of its contributors may be used to endorse or promote\n   products derived from this Software without specific prior written\n   permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\nTHE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\nDEALINGS WITH THE SOFTWARE."
+        }
+      ],
+      "license_expressions": [
+        "uoi-ncsa"
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2014-2017, Advanced Micro Devices, Inc.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "holders": [
+        {
+          "value": "Advanced Micro Devices, Inc.",
+          "start_line": 4,
+          "end_line": 4
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {
+        "modinfo": "license is 3.0600000000000023 percent modified "
+      },
+      "no_licenses": "NCSA Open Source License is Present",
+      "urls": [
+        {
+          "url": "http://www.amd.com/",
+          "start_line": 12,
+          "end_line": 12
+        }
+      ],
+      "is_legal": true,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": true,
+      "is_license_text": true,
+      "codelines": 0,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": "uoi-ncsa",
+            "count": 1
+          }
+        ],
+        "copyrights": [
+          {
+            "value": "Copyright (c) Advanced Micro Devices, Inc.",
+            "count": 1
+          }
+        ],
+        "holders": [
+          {
+            "value": "Advanced Micro Devices, Inc.",
+            "count": 1
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "programming_language": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo/README.md",
+      "type": "file",
+      "name": "README.md",
+      "base_name": "README",
+      "extension": ".md",
+      "size": 685,
+      "date": "2020-05-21",
+      "sha1": "070d1ffb8880a7d18b16530ce06a1fa43933297b",
+      "md5": "772920e25093b2d17c046235f74b423a",
+      "mime_type": "text/plain",
+      "file_type": "ASCII text",
+      "programming_language": null,
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": false,
+      "is_script": false,
+      "licenses": [],
+      "license_expressions": [],
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": {},
+      "urls": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": true,
+      "is_top_level": true,
+      "is_key_file": true,
+      "is_license_text": false,
+      "codelines": 0,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "copyrights": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "holders": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "programming_language": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo/rocm_agent_enumerator",
+      "type": "file",
+      "name": "rocm_agent_enumerator",
+      "base_name": "rocm_agent_enumerator",
+      "extension": "",
+      "size": 4283,
+      "date": "2020-05-21",
+      "sha1": "e8064634d9c74d06b0848869689c563024f02aa1",
+      "md5": "f89c1cd0d2f4d179fed4ba24643b7152",
+      "mime_type": "text/x-python",
+      "file_type": "Python script, ASCII text executable",
+      "programming_language": "Python",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": true,
+      "licenses": [],
+      "license_expressions": [],
+      "copyrights": [],
+      "holders": [],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": {},
+      "urls": [],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "is_license_text": false,
+      "codelines": 147,
+      "keywordsline": 0,
+      "matchedlines": [],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "copyrights": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "holders": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "programming_language": [
+          {
+            "value": "Python",
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    },
+    {
+      "path": "/src/rocminfo/rocminfo.cc",
+      "type": "file",
+      "name": "rocminfo.cc",
+      "base_name": "rocminfo",
+      "extension": ".cc",
+      "size": 37096,
+      "date": "2020-05-21",
+      "sha1": "e66e939b20226d2d6f958b15933db9fa576d666a",
+      "md5": "9d2eaf92c6cc27b65ceefcec1626d00e",
+      "mime_type": "text/x-c",
+      "file_type": "C source, ASCII text",
+      "programming_language": "C++",
+      "is_binary": false,
+      "is_text": true,
+      "is_archive": false,
+      "is_media": false,
+      "is_source": true,
+      "is_script": false,
+      "licenses": [
+        {
+          "key": "uoi-ncsa",
+          "score": 100.0,
+          "name": "University of Illinois/NCSA Open Source License",
+          "short_name": "NCSA Open Source License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "NCSA - University of Illinois",
+          "homepage_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "text_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:uoi-ncsa",
+          "spdx_license_key": "NCSA",
+          "spdx_url": "https://spdx.org/licenses/NCSA",
+          "start_line": 5,
+          "end_line": 6,
+          "matched_rule": {
+            "identifier": "uoi-ncsa_6.RULE",
+            "license_expression": "uoi-ncsa",
+            "licenses": [
+              "uoi-ncsa"
+            ],
+            "is_license_text": false,
+            "is_license_notice": false,
+            "is_license_reference": true,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 7,
+            "matched_length": 7,
+            "match_coverage": 100.0,
+            "rule_relevance": 100.0
+          },
+          "matched_text": "University of Illinois/NCSA\n * Open Source License ("
+        },
+        {
+          "key": "uoi-ncsa",
+          "score": 100.0,
+          "name": "University of Illinois/NCSA Open Source License",
+          "short_name": "NCSA Open Source License",
+          "category": "Permissive",
+          "is_exception": false,
+          "owner": "NCSA - University of Illinois",
+          "homepage_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "text_url": "http://www.otm.illinois.edu/faculty/forms/opensource.asp",
+          "reference_url": "https://enterprise.dejacode.com/urn/urn:dje:license:uoi-ncsa",
+          "spdx_license_key": "NCSA",
+          "spdx_url": "https://spdx.org/licenses/NCSA",
+          "start_line": 19,
+          "end_line": 42,
+          "matched_rule": {
+            "identifier": "uoi-ncsa_8.RULE",
+            "license_expression": "uoi-ncsa",
+            "licenses": [
+              "uoi-ncsa"
+            ],
+            "is_license_text": true,
+            "is_license_notice": false,
+            "is_license_reference": false,
+            "is_license_tag": false,
+            "matcher": "2-aho",
+            "rule_length": 222,
+            "matched_length": 222,
+            "match_coverage": 100.0,
+            "rule_relevance": 100
+          },
+          "matched_text": "Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to\n * deal with the Software without restriction, including without limitation\n * the rights to use, copy, modify, merge, publish, distribute, sublicense,\n * and/or sell copies of the Software, and to permit persons to whom the\n * Software is furnished to do so, subject to the following conditions:\n *\n *  - Redistributions of source code must retain the above copyright notice,\n *    this list of conditions and the following disclaimers.\n *  - Redistributions in binary form must reproduce the above copyright\n *    notice, this list of conditions and the following disclaimers in\n *    the documentation and/or other materials provided with the distribution.\n *  - Neither the names of <Name of Development Group, Name of Institution>,\n *    nor the names of its contributors may be used to endorse or promote\n *    products derived from this Software without specific prior written\n *    permission.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL\n * THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR\n * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\n * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER\n * DEALINGS WITH THE SOFTWARE."
+        }
+      ],
+      "license_expressions": [
+        "uoi-ncsa",
+        "uoi-ncsa"
+      ],
+      "copyrights": [
+        {
+          "value": "Copyright (c) 2017, Advanced Micro Devices, Inc.",
+          "start_line": 8,
+          "end_line": 9
+        }
+      ],
+      "holders": [
+        {
+          "value": "Advanced Micro Devices, Inc.",
+          "start_line": 8,
+          "end_line": 9
+        }
+      ],
+      "authors": [],
+      "packages": [],
+      "emails": [],
+      "license_policy": {},
+      "licence_modifications": {},
+      "no_licenses": "NCSA Open Source License is Present",
+      "urls": [
+        {
+          "url": "http://www.amd.com/",
+          "start_line": 17,
+          "end_line": 17
+        }
+      ],
+      "is_legal": false,
+      "is_manifest": false,
+      "is_readme": false,
+      "is_top_level": true,
+      "is_key_file": false,
+      "is_license_text": false,
+      "codelines": 1097,
+      "keywordsline": 1,
+      "matchedlines": [
+        "line no 50 has keyword/keywords - Gibraltar\n"
+      ],
+      "summary": {
+        "license_expressions": [
+          {
+            "value": "uoi-ncsa",
+            "count": 2
+          }
+        ],
+        "copyrights": [
+          {
+            "value": "Copyright (c) Advanced Micro Devices, Inc.",
+            "count": 1
+          }
+        ],
+        "holders": [
+          {
+            "value": "Advanced Micro Devices, Inc.",
+            "count": 1
+          }
+        ],
+        "authors": [
+          {
+            "value": null,
+            "count": 1
+          }
+        ],
+        "programming_language": [
+          {
+            "value": "C++",
+            "count": 1
+          }
+        ]
+      },
+      "files_count": 0,
+      "dirs_count": 0,
+      "size_count": 0,
+      "scan_errors": []
+    }
+  ]
+}
